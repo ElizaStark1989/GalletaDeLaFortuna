@@ -7,6 +7,8 @@ html {
 body{
   background-color: black;
   color: white;
+  padding: 0;
+  margin: 0;
 }
 
 button {
@@ -34,6 +36,12 @@ p {
   color: black;
   padding: 15px;
   border-radius: 15px;
+}
+.app{
+  min-height: 100vh;
+  /* background-image: url('../public/assets/fondo3.png'); */
+  background-position: center;
+  background-size: cover;
 }
 
 .container {
