@@ -19,6 +19,7 @@ function App() {
     const bgStyle = {
       backgroundImage: `url('/assets/fondo${bgApp}.png')`,
     }
+      
 
   return (
     <div className='app' style = {bgStyle}>
