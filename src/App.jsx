@@ -13,7 +13,7 @@ function App() {
     const sentence = randomIndex(phrases);
     const bgIndex = randomIndex(bgArray);
     
-    const [quote, setquote] = useState(sentence);
+    const [quote, setquote] = useState('');
     const [bgApp, setBgApp] = useState(bgIndex);
 
     const bgStyle = {
